@@ -1,5 +1,6 @@
 import { Component, OnInit, Output } from '@angular/core';
-import { FuncionariosService } from 'src/app/core/entidades/funcionarios.service';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FuncionariosService } from 'src/app/core/entidades/funcionario/funcionarios.service';
 import { Funcionario } from 'src/app/models/funcionario';
 
 @Component({

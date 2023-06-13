@@ -7,6 +7,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
+import { MatTableModule } from '@angular/material/table';
 
 import { DescriptionComponent } from './description/description.component';
 import { SnackBarComponent } from './snack-bar/snack-bar.component';
@@ -23,7 +26,10 @@ import { SnackBarComponent } from './snack-bar/snack-bar.component';
     MatButtonModule,
     MatTabsModule,
     MatCardModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDialogModule,
+    MatInputModule,
+    MatTableModule
   ],
   exports: [
     DescriptionComponent,
@@ -33,7 +39,10 @@ import { SnackBarComponent } from './snack-bar/snack-bar.component';
     MatButtonModule,
     MatTabsModule,
     MatCardModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDialogModule,
+    MatInputModule,
+    MatTableModule
   ]
 })
 export class SharedModule { }

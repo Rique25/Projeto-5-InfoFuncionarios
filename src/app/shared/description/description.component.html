@@ -1,5 +1,5 @@
 <span>{{ title }}</span>
 
 <mat-card>
-  <mat-card-content>{{ message }}</mat-card-content>
+  <mat-card-content *ngIf="message">{{ message }}</mat-card-content>
 </mat-card>
